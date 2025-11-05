@@ -1,0 +1,46 @@
+
+
+header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: gray;
+	margin: 0;
+	padding: 0 20px;
+
+}
+
+body{
+	margin: 0;
+	padding-top: 80px;
+	box-sizing: border-box;
+    background-color: bisque;
+}
+
+nav{
+	display: flex;
+	gap: 16px;
+}
+
+header a{ color: white; text-decoration: none; font-weight:600 }
+header h1{ color: white; margin:0 }
+
+main{
+    font-family: monospace;
+}
+
+.outer-box{
+    border: 5px solid gray;
+}
+
+.inner-box{
+    border: 3px solid black;
+    padding: 20px,20px,20px,20px;
+}
+
+
